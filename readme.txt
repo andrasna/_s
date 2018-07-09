@@ -7,7 +7,7 @@ License URI: LICENSE
 
 == Description ==
 
-A WP starter theme based on _s (underscores).
+A WP starter theme based on _s (underscores), using Tachyons (functional CSS).
 
 == Installation ==
 
@@ -18,3 +18,5 @@ A WP starter theme based on _s (underscores).
 == Credits ==
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+
+* Tachyons https://github.com/tachyons-css/tachyons, https://github.com/tachyons-css/tachyons/blob/master/license

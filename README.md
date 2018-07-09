@@ -3,9 +3,8 @@
 _wpstarter
 ===
 
-Hi. This is a WordPress starter theme based on _s (underscores). I use this as a starting point for my WordPress projects.
+Hi. This is a WordPress starter theme based on _s (underscores), using Tachyons (functional CSS). As of this point, the project is experimental. 
 
-Getting Started
 ---------------
 
 (Instructions from https://github.com/Automattic/_s)
