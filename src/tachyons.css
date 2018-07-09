@@ -1,3 +1,5 @@
+@import './_wp';
+
 /*! TACHYONS v4.10.0 | http://tachyons.io */
 
 /*
@@ -26,7 +28,6 @@
 
 /* External Library Includes */
 @import './_normalize';
-
 
 /* Modules */
 @import './_box-sizing';
