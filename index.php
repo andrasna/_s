@@ -15,8 +15,7 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+  <main class="mb5">
 
 		<?php
 		if ( have_posts() ) :
@@ -24,7 +23,7 @@ get_header();
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
 				<?php
 			endif;
@@ -51,9 +50,8 @@ get_header();
 		endif;
 		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+  </main><!-- #main -->
 
 <?php
-get_sidebar();
+// get_sidebar();
 get_footer();
