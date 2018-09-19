@@ -10,16 +10,15 @@
 get_header();
 ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
+  <main class="mb5">
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1 class="page-title">
+			<header class="mb4">
+				<h1 class="mb2">
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', '_s' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Search results for: %s', '_s' ), '<span>' . get_search_query() . '</span>' );
 					?>
 				</h1>
 			</header><!-- .page-header -->
@@ -47,9 +46,8 @@ get_header();
 		endif;
 		?>
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+  </main><!-- #main -->
 
 <?php
-get_sidebar();
+// get_sidebar();
 get_footer();
