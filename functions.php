@@ -44,7 +44,7 @@ if ( ! function_exists( '_s_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', '_s' ),
+			'primary' => esc_html__( 'Primary', '_s' ),
 		) );
 
 		/*
@@ -165,3 +165,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+/**
+ * Waker
+ */
+
+require get_template_directory() . '/inc/walker_nav_menu.php';
